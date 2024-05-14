@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+ul li a {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #222222;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: #DE2E54;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+.head-btn button {
+    height: 47px;
+    background: #FFFFFF;
+    border: 2px solid #DE2E54;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22.5px;
+    letter-spacing: 2px;
+    font-family: 'Open Sans';
+    color: #DE2E54;
+    text-transform: uppercase;
+    padding: 12px 24px;
+}
+
+.header-content {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* birinchi */
+
+#birinchi {
+    background: url('img/image\ 4.svg') no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin: 137px 0 48px;
+}
+
+.bir-btn button {
+    height: 47px;
+    background: #DE2E54;
+    border: 2px solid #DE2E54;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22.5px;
+    letter-spacing: 2px;
+    font-family: 'Open Sans';
+    color: #fff;
+    text-transform: uppercase;
+    padding: 12px 24px;
+}
+
+.birinchi-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bir-right img {
+    padding-top: 80px;
+}
